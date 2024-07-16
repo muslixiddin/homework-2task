@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+.container{
+    max-width: 1440px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.home_work_bgimg{
+    background-image: url(./BG.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.section_title{
+    text-align: center;
+    line-height: 50px;
+}
+
+.section_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_bottom-card{
+    text-align: center;
+    padding: 15px 50px;
+    
+}
+.section_bottom_desc{
+    font-style: 64px;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    font-weight: 450;
+}
+
+.section_bottom-card-center{
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF ;
+    padding: 0 30px;
+}
